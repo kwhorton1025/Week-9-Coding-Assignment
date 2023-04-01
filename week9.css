@@ -1,0 +1,16 @@
+body {
+  background-color: rgb(227, 226, 226);
+}
+
+h1 {
+  text-align: center;
+  color:rgb(171, 18, 18);
+}
+
+.h4 {
+  color:rgb(93, 0, 0);
+}
+
+.h5, h3, h5, h6 {
+  color:rgb(141, 52, 52)
+}

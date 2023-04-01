@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="node_modules/bootstrap/dist/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="week9.css" />
+    <!-- stylesheet links -->
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+      <img
+        src="https://th.bing.com/th/id/R.463ed2a60e31b4def160754bc6f9e659?rik=he%2bTeXUaphxjig&riu=http%3a%2f%2fwww.clipartbest.com%2fcliparts%2f4T9%2f6AG%2f4T96AGyac.png&ehk=60q6cZ6u%2bBq8qXhMFn3hPR2XsiE%2bVSylGpvN%2b%2f2fyCo%3d&risl=&pid=ImgRaw&r=0"
+        alt="Logo"
+        width="50"
+        height="45"
+        class="d-inline-block align-text-top"
+      />
+      <!-- logo image in navbar -->
+      <a class="navbar-brand" href="home.html">Red Barn Recipes</a>
+      <!-- links home page to navbar when red barn recipes is clicked -->
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNavDropdown"
+        aria-controle="navbarNavDropdown"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle"
+              href="#"
+              id="navbarNavDropdownMenuLink"
+              role="button"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+            >
+              Breads
+            </a>
+            <ul
+              class="dropdown-menu"
+              aria-labelledby="navbarNavDropdownMenuLink"
+            >
+              <li>
+                <a class="dropdown-item" href="recipe2.html">Angel Biscuits</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle"
+              href="#"
+              id="navbarNavDropdownMenuLink"
+              role="button"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+            >
+              Desserts
+            </a>
+            <ul
+              class="dropdown-menu"
+              aria-labelledby="navbarNavDropdownMenuLink"
+            >
+              <li>
+                <a class="dropdown-item" href="recipe1.html"
+                  >Chocolate Sheet Cake</a
+                >
+              </li>
+            </ul>
+          </li>
+        </ul>
+        <!-- dropdown menus with recipes -->
+        <form class="d-flex" role="search">
+          <input
+            class="form-control me-2"
+            type="search"
+            placeholder="Search"
+            aria-label="Search"
+          />
+          <button class="btn btn-outline-light" type="submit">Search</button>
+        </form>
+        <!-- form, search bar in navbar -->
+      </div>
+    </nav>
+
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-sm">
+          <h1>
+            <img
+              height="300px"
+              width="400px"
+              src="https://i.pinimg.com/474x/11/da/b8/11dab8a7f85d86e27a1892d9debdb000--red-barns-white-houses.jpg"
+              class="rounded"
+              alt="Red Barn in Snow 1"
+            />
+            Welcome To Red Barn Recipes
+            <img
+              height="300px"
+              width="400px"
+              src="https://i.pinimg.com/474x/e5/54/58/e5545837cec92b4f9b425a8598090e37.jpg"
+              class="rounded"
+              alt="Red Barn in Snow 2"
+            />
+          </h1>
+          <!-- header with images -->
+          <br /><br />
+        </div>
+      </div>
+      <div class="row text-center">
+        <div class="col-sm">
+          <h3>
+            Here You Will Find Made From Scratch Recipes That are Guaranteed
+            Delicious!
+          </h3>
+        </div>
+      </div>
+      <br />
+      <div class="row text-center">
+        <div class="col-sm">
+          <h5>Two of the recipes included on this site are:</h5>
+        </div>
+      </div>
+      <br />
+      <div class="row text-center">
+        <div class="col-sm-3">
+          <!-- added blank column to make page more visually appealing -->
+        </div>
+        <div class="col-sm-3">
+          <h6>Chocolate Sheet Cake</h6>
+          <img
+            height="250px"
+            width="200px"
+            src="https://th.bing.com/th/id/R.95df64dca9ed60b18c1247c8985a9c79?rik=Fu8UCf%2fRFnZr9Q&pid=ImgRaw&r=0"
+            alt="Chocolate Sheet Cake"
+          />
+        </div>
+        <div class="col-sm-3">
+          <h6>Angel Biscuits</h6>
+          <img
+            height="250px"
+            width="200px"
+            src="https://th.bing.com/th/id/R.30b49323edeb69d908e6b8840f7487d4?rik=S0UHc5wtx6uLIA&pid=ImgRaw&r=0"
+            alt="Chocolate Sheet Cake"
+          />
+        </div>
+      </div>
+    </div>
+    <!-- images and info centered on page. stacks vertically on small screen -->
+
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
